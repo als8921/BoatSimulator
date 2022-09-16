@@ -1,7 +1,6 @@
 ﻿<Properties StartupConfiguration="{9D1F767F-553A-79E7-BF2D-1E4E238CCD08}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SimulatorScripts/PWMController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SimulatorScripts/Subscribe/PWMSubscribe.cs">
     <Files>
-      <File FileName="Assets/Scripts/SimulatorScripts/PWMController.cs" Line="62" Column="25" />
       <File FileName="Assets/Scripts/SimulatorScripts/Subscribe/PWMSubscribe.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MAPUI/testPsi_dPublish.cs" />
       <File FileName="Assets/Scripts/MAPUI/UIMainScript.cs" />
@@ -16,8 +15,9 @@
                 <Node name="MAPUI" expanded="True" />
                 <Node name="SimulatorScripts" expanded="True">
                   <Node name="Publish" expanded="True" />
-                  <Node name="Subscribe" expanded="True" />
-                  <Node name="PWMController.cs" selected="True" />
+                  <Node name="Subscribe" expanded="True">
+                    <Node name="PWMSubscribe.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -28,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="452966df-0426-4735-9114-f572b0ebaa22" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e224d41d-4853-4384-9000-0a3a160dfdb7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
