@@ -15,20 +15,14 @@ namespace RosSharp.RosBridgeClient
             Data.angle_increment = 1 * Mathf.PI / 180.0f;
             Data.time_increment = 0.02f;
             Data.range_min = 1;
-            Data.range_max = 1000;         
-
+            Data.range_max = 200;
         }
 
         private void FixedUpdate()
         {
-            UpdateMessage();
-        }
-
-        private void UpdateMessage()
-        {
             double[] data = LidarObject.GetComponent<Lidar>().lidarData;
             for (int i = 0; i < 360; i++)
-                Data.ranges[i] = (float)data[i]; 
+                Data.ranges[i] = (float)data[i];
             Publish(Data);
         }
     }

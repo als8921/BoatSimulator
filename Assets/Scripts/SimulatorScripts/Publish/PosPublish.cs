@@ -14,12 +14,7 @@ namespace RosSharp.RosBridgeClient
 
         private void FixedUpdate()
         {
-            UpdateMessage();
-        }
-
-        private void UpdateMessage()
-        {
-            Data.data = new double[] { Boat.transform.position.x, Boat.transform.position.z};
+            Data.data = new double[] { Boat.transform.position.x, Boat.transform.position.z };
             Publish(Data);
         }
     }

@@ -14,11 +14,6 @@ namespace RosSharp.RosBridgeClient
 
         private void FixedUpdate()
         {
-            UpdateMessage();
-        }
-
-        private void UpdateMessage()
-        {
             Data.data = (Boat.transform.rotation.eulerAngles.y > 180) ? Boat.transform.rotation.eulerAngles.y - 360 : Boat.transform.rotation.eulerAngles.y;
             Publish(Data);
         }
