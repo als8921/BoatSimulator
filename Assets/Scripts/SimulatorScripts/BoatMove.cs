@@ -27,12 +27,11 @@ public class BoatMove : MonoBehaviour
         timeText.text = time.ToString() + "s";
         if (transform.position.x < 1)
             time = 0;
-        else if (transform.position.x < 30)
+        else if (transform.position.x < 90)
         {
             time += Time.deltaTime;
         }
-
-        if (transform.position.x > 30)
+        if (transform.position.x > 90)
         {
             isEnd = true;
             Debug.Log("기록 : " + time);
